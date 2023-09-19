@@ -2,6 +2,7 @@ package main;
 
 
 import excercises.Bingo;
+import excercises.PrimeNumber;
 
 
 public class Main {
@@ -11,7 +12,8 @@ public class Main {
         System.out.println(Bingo.bingo(100));
 
 
-
+        System.out.println("\nB. Prime numbers : ");
+        System.out.println(PrimeNumber.firstNPrimeNumber(50));
 
 
     }
