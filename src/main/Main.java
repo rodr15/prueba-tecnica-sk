@@ -3,6 +3,7 @@ package main;
 
 import excercises.Bingo;
 import excercises.PrimeNumber;
+import excercises.ReverseSentence;
 
 
 public class Main {
@@ -15,6 +16,10 @@ public class Main {
         System.out.println("\nB. Prime numbers : ");
         System.out.println(PrimeNumber.firstNPrimeNumber(50));
 
+        String sentence = "prueba de lógica";
+        System.out.println("\nC. Reverse sentence: ");
 
+        System.out.printf("Sentence: %s%n", sentence );
+        System.out.printf("Reversed Sentence: %s%n", ReverseSentence.reverseSentence(sentence));
     }
 }
