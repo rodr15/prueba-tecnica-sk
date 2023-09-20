@@ -1,6 +1,6 @@
 # Prueba Técnica
 # 1. Conceptos basicos de programación:
-La solución esta en el archivo .pdf
+La solución y explicación de los conceptos básicos de programación se encuentra detallada en el archivo adjunto "Prueba_Skandia.pdf". Este documento proporciona una descripción completa de los fundamentos de programación abordados en el contexto de la solución. Se recomienda revisar el archivo PDF para obtener una comprensión más profunda de los conceptos y ejemplos presentados.
 
 # 2. Algoritmos:
 Este proyecto fue desarrollado con Java 11
