@@ -1,4 +1,3 @@
-DROP SCHEMA skandia;
 CREATE SCHEMA skandia;
 USE skandia;
 

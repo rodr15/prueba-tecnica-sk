@@ -1,5 +1,8 @@
 # Prueba Técnica
+# 1. Conceptos basicos de programación:
+La solución esta en el archivo .pdf
 
+# 2. Algoritmos:
 Este proyecto fue desarrollado con Java 11
 
 ## Descripción
@@ -37,3 +40,19 @@ A continuación, se describen brevemente los detalles de implementación de cada
    
 Cada clase tiene un constructor privado para evitar la instanciación ya que solo contienen métodos estáticos.
 
+# 3. Análisis de Modelado de datos:
+Este apartado aborda el modelado de datos para una solución específica y consta de los siguientes archivos:
+
+**skandia.sql:** Este archivo contiene las instrucciones SQL necesarias para crear la estructura de la base de datos en el sistema. Aquí se definen las tablas, relaciones y restricciones que formarán la base de datos.
+
+**insert_data.sql:** En este archivo se encuentran las instrucciones SQL para la inserción de datos de prueba en las tablas previamente definidas. Estos datos son esenciales para llevar a cabo análisis y pruebas de la base de datos.
+
+**consultas.sql:** El archivo de consultas SQL incluye las consultas específicas que se pueden ejecutar en la base de datos. Estas consultas son fundamentales para obtener información relevante y realizar análisis sobre los datos almacenados.
+
+Es importante destacar que se debe seguir un orden específico al ejecutar estos archivos:
+
+1. Ejecutar skandia.sql para crear la estructura de la base de datos.
+2. Ejecutar insert_data.sql para insertar datos de prueba en las tablas.
+3. Ejecutar las consultas deseadas contenidas en consultas.sql para analizar y obtener información relevante de la base de datos.
+
+Este enfoque garantiza que la base de datos esté correctamente configurada y poblada con datos de prueba antes de realizar cualquier análisis o consulta.
