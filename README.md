@@ -1,6 +1,6 @@
 # Prueba Técnica
 # 1. Conceptos basicos de programación:
-La solución y explicación de los conceptos básicos de programación se encuentra detallada en el archivo adjunto "Prueba_Skandia.pdf". Este documento proporciona una descripción completa de los fundamentos de programación abordados en el contexto de la solución. Se recomienda revisar el archivo PDF para obtener una comprensión más profunda de los conceptos y ejemplos presentados.
+La solución y explicación de los conceptos básicos de programación se encuentra detallada en el archivo adjunto **Prueba_Skandia.pdf**. 
 
 # 2. Algoritmos:
 Este proyecto fue desarrollado con Java 11
@@ -16,7 +16,7 @@ Este proyecto contiene tres ejercicios de programación en Java:
 
 ## Ejecución
 
-Para ejecutar los ejercicios, simplemente ejecuta la clase `Main` en el paquete `main`:
+Para ejecutar los ejercicios, ejecuta la clase `Main` en el paquete `main`:
 
 
 ## Detalles de Implementación
@@ -47,12 +47,13 @@ Este apartado aborda el modelado de datos para una solución específica y const
 
 **insert_data.sql:** En este archivo se encuentran las instrucciones SQL para la inserción de datos de prueba en las tablas previamente definidas. Estos datos son esenciales para llevar a cabo análisis y pruebas de la base de datos.
 
-**consultas.sql:** El archivo de consultas SQL incluye las consultas específicas que se pueden ejecutar en la base de datos. Estas consultas son fundamentales para obtener información relevante y realizar análisis sobre los datos almacenados.
+**consultas.sql:** El archivo de consultas SQL incluye las consultas específicas que se pueden ejecutar en la base de datos.
 
-Es importante destacar que se debe seguir un orden específico al ejecutar estos archivos:
+## Ejecución
 
-1. Ejecutar skandia.sql para crear la estructura de la base de datos.
-2. Ejecutar insert_data.sql para insertar datos de prueba en las tablas.
-3. Ejecutar las consultas deseadas contenidas en consultas.sql para analizar y obtener información relevante de la base de datos.
+Es importante destacar que se debe seguir un orden específico al ejecutar estos archivos.
 
-Este enfoque garantiza que la base de datos esté correctamente configurada y poblada con datos de prueba antes de realizar cualquier análisis o consulta.
+1. Ejecutar `skandia.sql` para crear la estructura de la base de datos.
+2. Ejecutar `insert_data.sql` para insertar datos de prueba en las tablas.
+3. Ejecutar las consultas deseadas contenidas en `consultas.sql` para analizar y obtener información relevante de la base de datos.
+
